@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Application</string>
+    <string name="hello_world">I am Another Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_at1">at1</string>
+    <string name="text1_mainActivity">I am Main Activity</string>
+
+</resources>

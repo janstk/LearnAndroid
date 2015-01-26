@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView android:text="@string/text1_mainActivity" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="startService"
+        android:id="@+id/btnStart"
+        android:layout_marginTop="26dp"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="stopService"
+        android:id="@+id/btnStop"
+        android:layout_below="@+id/btnStart"
+        android:layout_alignLeft="@+id/btnStart"
+        android:layout_alignStart="@+id/btnStart"
+        android:layout_marginTop="13dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bind"
+        android:id="@+id/btnBind"
+        android:layout_below="@+id/btnStop"
+        android:layout_alignRight="@+id/btnStart"
+        android:layout_alignEnd="@+id/btnStart"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="unbind"
+        android:id="@+id/btnUnbind"
+        android:layout_below="@+id/btnBind"
+        android:layout_alignLeft="@+id/btnBind"
+        android:layout_alignStart="@+id/btnBind"
+        android:layout_marginTop="35dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ShowNumber"
+        android:id="@+id/btnGetNum"
+        android:layout_below="@+id/btnUnbind"
+        android:layout_alignLeft="@+id/btnUnbind"
+        android:layout_alignStart="@+id/btnUnbind"
+        android:layout_marginTop="24dp" />
+
+</RelativeLayout>
